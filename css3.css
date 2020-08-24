@@ -1,0 +1,22 @@
+.main .toggle ~ label:after {
+	position: absolute;
+	left: 100%;
+	margin-left: 5px;
+	top: 0;
+}
+
+.main  .toggle ~ .emoji:before {
+	content: "😍";
+}
+
+.main .toggle:checked ~ .emoji:before{
+	content:"😡";
+}
+.main .toggle ~ label:before {
+	content: "Happy";
+}
+
+.main .toggle ~ label:after {
+	content: "Mad";
+}
+	

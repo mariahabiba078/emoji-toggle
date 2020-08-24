@@ -1,0 +1,26 @@
+.main{
+	position: relative;
+	width:60px;
+	margin:300px auto;
+}
+.main.toggle-bg {
+	display: block;
+	background: pink;
+	height: 20px;
+	width: 60px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.main .toggle {
+	opacity: 0;
+	border: 0;
+	outline: none;
+	height: 100%;
+	width: 100%;
+	background: transparent;
+	position: absolute;
+	cursor:pointer;
+	z-index: 100;
+}
+	
+	

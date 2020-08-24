@@ -1,0 +1,22 @@
+.main .toggle ~ .emoji:before {
+	position: absolute;
+	left: -10%;
+	top: -20px;
+	font-size: 40px;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+}
+.main.toggle:checked ~ .emoji:before {
+	left: 90%;
+	margin-left: -1em;
+}
+.main .toggle ~ label {
+	white-space: nowrap;
+}
+.main .toggle ~ label:before {
+	position: absolute;
+	right: 100%;
+	margin-right: 5px;
+	top: 0;
+}
+	
